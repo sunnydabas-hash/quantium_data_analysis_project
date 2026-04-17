@@ -80,6 +80,30 @@ ON t1.LYLTY_CARD_NBR = t2.LYLTY_CARD_NBR;
 9. Exported the final cleaned dataset in Tableau for Visualization.
 
 
+Analysing Data and Finding insights using Tableau
+
+
+1. Here are the Top products generating highest Sales and The top stores which provides highest sales
+<img width="761" height="839" alt="dash_sales" src="https://github.com/user-attachments/assets/221a056b-c52e-41d0-9860-7f46da155030" />
+
+
+
+
+2. Top chips products which are sold the most and contribute to the sales in highest manner.
+<img width="878" height="586" alt="Screenshot 2026-04-17 at 7 52 47 AM" src="https://github.com/user-attachments/assets/7b564abd-7c20-40b1-9f8e-293a4035efcc" />
+
+
+3.In this chart ,The chart comparing total sales across customer life stages and customer categories shows that older families and retirees contribute the highest sales overall.
+Key Insights
+* Budget Older Families generate the highest total sales, contributing approximately 168K in revenue.
+*  Among Mainstream customers, Young Singles/Couples and Retirees are the strongest-performing segments, both generating more than 155K in sales.
+*  Premium customers contribute lower overall sales compared to Budget and Mainstream categories, although Premium Older Singles/Couples still generate more than 132K in revenue.
+*   New Families are the lowest-spending customer group across all customer categories.
+*  The results suggest that mature households and older customers are the most valuable segments, while younger families and new families contribute significantly less.
+
+<img width="965" height="714" alt="Screenshot 2026-04-17 at 8 37 22 AM" src="https://github.com/user-attachments/assets/9a25b81e-b845-40e1-8c37-4182e70bf146" />
+
+
 
 
 
