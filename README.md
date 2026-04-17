@@ -74,7 +74,7 @@ SELECT
 FROM transactions t1
 JOIN customers_behaviour t2
 ON t1.LYLTY_CARD_NBR = t2.LYLTY_CARD_NBR;
-
+```
 
 8. Removed the duplicate join column after merging.
 9. Exported the final cleaned dataset in Tableau for Visualization.
