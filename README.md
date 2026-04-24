@@ -76,8 +76,6 @@ JOIN customers_behaviour t2
 ON t1.LYLTY_CARD_NBR = t2.LYLTY_CARD_NBR;
 ```
 
-8. Removed the duplicate join column after merging.
-9. Exported the final cleaned dataset in Tableau for Visualization.
 
 
 Analysing Data and Finding insights using Tableau
@@ -103,11 +101,77 @@ Key Insights
 
 <img width="965" height="714" alt="Screenshot 2026-04-17 at 8 37 22 AM" src="https://github.com/user-attachments/assets/9a25b81e-b845-40e1-8c37-4182e70bf146" />
 
+4. This chart shows the montly sales trend , comparing the 2018 and 2019 each months sale.
+
+<img width="1462" height="887" alt="Screenshot 2026-04-24 at 7 27 29 AM" src="https://github.com/user-attachments/assets/780d897d-8b8b-4a06-bef2-056614c3391d" />
+Key Insights
+* Starting from July,2018 , it maintains $162k sales till november.
+* The chart  shows highest sales in December peaking upto $167k probably due to Holidays like Christmas and New Year which shows people generally order more .
+* The dip starting in Jan,2019 to Feb,2019 shows post holidays sales decrease probably due to working season.
+* Sales starts improving after Feb,2019 and continues to go back to around $160k .
+* The results suggests that sales peaks in Holidays when all the families come together to celebrate and dips when holiday season gets over.
+
+5. -Older Families are the highest spenders across all tiers
+
+Budget: $36.01 | Mainstream: $36.54 | Premium: $36.04
+Consistently the top dot in every panel — regardless of premium tier, this segment spends the most per customer
+
+- Young Families are a strong second
+
+Budget: $34.69 | Mainstream: $34.01 | Premium: $34.54
+Close behind Older Families — family segments as a whole clearly outspend all other lifestages
+<img width="1462" height="887" alt="Screenshot 2026-04-24 at 7 26 38 AM" src="https://github.com/user-attachments/assets/2f70ff6f-e007-45fa-a9e6-b980b3075960" />
+
+Family lifestage, not premium tier, is the primary driver of individual customer spend. The gap between Older Families ($36) and Young Singles ($16) is more than 2x — making lifestage a far stronger predictor of value than whether a customer shops Budget or Premium.
+
+Recommendation
+
+Prioritise family segments in ranging, promotions, and shelf strategy
+Don't over-invest in converting Budget families to Premium — the spend uplift is negligible (~$0.03)
+Focus on frequency tactics for Young Singles — their per-visit spend won't grow much, but visit frequency can
 
 
+<img width="604" height="651" alt="Screenshot 2026-04-24 at 7 53 25 AM" src="https://github.com/user-attachments/assets/88fe8bcd-c2c7-4f89-8967-ce7f63e6b9e4" />
+
+6.What the chart shows
+A ranked table of the top 20 products by pack size (grams), with a heat-map colour scale — darker blue = larger pack, lighter teal = smaller pack.
+
+Key Observations
+1. Two brands dominate the largest pack sizes (380g)
+
+Smiths Crinkle Chip Original Big Bag and Dorito Corn Chip Supreme both sit at 380g
+These are clearly the "bulk/sharing" format — positioned for group occasions or family consumption
+
+2. Three pack size tiers are clearly visible
+
+Large format (270g–380g): Smiths, Doritos, Cheezels, Old El Paso, Twisties
+Mid format (175g): Kettle dominates entirely — 6 out of 7 products in this range are Kettle
+Small format (150g): Exclusively Kettle Tortilla and Sensations lines
+
+3. Kettle owns the mid-to-small pack space
+
+9 of the top 20 products are Kettle
+All Kettle products sit between 150g–175g — a very consistent, premium portion-controlled sizing strategy
+No Kettle product appears in the large format tier
+
+4. Old El Paso is the only non-chip brand in the list
+
+Three salsa dip products at 300g each
+Suggests cross-category complementary purchasing — customers buying chips likely also buying dips
+
+5. Smiths and Doritos lead the large sharing format
+
+Both appear multiple times at 330g–380g
+Smiths has 3 products in the top 20 (380g, 330g x2) — strong large-format ranging
+ 
+ <img width="405" height="473" alt="Screenshot 2026-04-24 at 7 59 49 AM" src="https://github.com/user-attachments/assets/d942eeb6-4b1f-4c03-9e1b-0410f06af0f9" />
 
 
+Recommendations 
 
-
+Range both large and mid formats — they serve different missions (sharing occasion vs. individual snacking) and different segments
+Kettle's 175g sweet spot aligns with its premium positioning — avoid discounting into large-format as it may dilute brand perception
+Old El Paso dips appearing in a chip pack size chart suggests a meal deal or cross-category promotion opportunity — bundle chips with dips for family segments
+Cheezels and Twisties at 270–330g are mid-large players that could be repositioned as value sharing alternatives to Smiths/Doritos
     
 
