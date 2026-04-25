@@ -173,5 +173,14 @@ Range both large and mid formats — they serve different missions (sharing occa
 Kettle's 175g sweet spot aligns with its premium positioning — avoid discounting into large-format as it may dilute brand perception
 Old El Paso dips appearing in a chip pack size chart suggests a meal deal or cross-category promotion opportunity — bundle chips with dips for family segments
 Cheezels and Twisties at 270–330g are mid-large players that could be repositioned as value sharing alternatives to Smiths/Doritos
+
+
+The project successfully delivered a clean, merged retail dataset ready for analytical use. Raw transaction and customer behaviour data were processed through a two-stage pipeline: Excel for initial formatting, null checks, and duplicate validation, followed by SQL to join the two tables on LYLTY_CARD_NBR — a step necessary due to Excel's size limitations. The final dataset was exported and visualised in Tableau.
     
 
+<img width="649" height="358" alt="Screenshot 2026-04-25 at 3 18 02 PM" src="https://github.com/user-attachments/assets/68b4ed06-896c-4ab7-bdd2-5ef41d6ee894" />
+
+CONCLUSION
+The most important finding is that lifestage — particularly family status — is a far stronger driver of spending than whether a customer shops in the Budget, Mainstream, or Premium tier. Older and Young Families outspend all other segments by a wide margin (up to 2x more than Young Singles), and that gap barely moves across tiers. This means budget spent trying to "upgrade" Budget Families to Premium is largely wasted.
+Seasonality is clear and predictable: sales peak sharply in December (likely Christmas and New Year gatherings) and dip through January–February, before recovering. This pattern can directly inform promotional planning and stock decisions.
+On the product side, pack format serves distinct missions: large formats (Smiths, Doritos at 330–380g) are sharing occasions, while Kettle's 150–175g range serves premium individual snacking. Mixing these strategies would dilute brand positioning. The appearance of Old El Paso dips in the chip pack-size ranking points to a natural cross-category bundle opportunity, especially for the family segments identified as highest-value.
